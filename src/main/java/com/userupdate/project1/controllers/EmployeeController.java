@@ -16,7 +16,7 @@ import org.springframework.ui.Model;
 
 @Controller
 public class EmployeeController {
-    private EmployeeService employeeService;
+    private final EmployeeService employeeService;
     @Autowired
     EmployeeRepository employeeRepository;
 

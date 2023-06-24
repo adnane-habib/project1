@@ -13,7 +13,7 @@ import java.util.Optional;
 public class EmployeeService {
 
     @Autowired
-    EmployeeRepository employeeRepository;
+    private final EmployeeRepository employeeRepository;
 
     public EmployeeService (EmployeeRepository employeeRepository){
         this.employeeRepository = employeeRepository;
